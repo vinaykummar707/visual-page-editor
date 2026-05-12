@@ -23,7 +23,7 @@ export const CanvasNodeRenderer: React.FC<CanvasNodeRendererProps> = ({ nodeId }
     return (
       <div
         className={cn(
-          "h-full w-full   p-4  transition-all",
+          "  p-4  transition-all",
           isSelected ? "border-primary/70 ring-2 ring-primary/20" : "hover:border-primary/40",node.props.className
         )}
         onClick={(e) => {
